@@ -1,6 +1,7 @@
 config network
 	option init network
 	list affects dhcp
+	list affects radvd
 
 config wireless
 	list affects network
@@ -35,10 +36,12 @@ config qos
 
 config system
 	option init led
-	option exec '/etc/init.d/log reload'
 	list affects luci_statistics
 	list affects dhcp
-
+	
+config cron
+	option init cron
+	
 config luci_splash
 	option init luci_splash
 
@@ -53,4 +56,3 @@ config samba
 
 config tinyproxy
 	option init tinyproxy
-
