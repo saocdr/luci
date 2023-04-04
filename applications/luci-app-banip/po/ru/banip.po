@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-23 14:42+0000\n"
+"PO-Revision-Date: 2023-04-03 07:17+0000\n"
 "Last-Translator: AHOHNMYC <lqwh2h2cwa@protonmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsbanip/ru/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:75
 msgid "-- Set Selection --"
@@ -169,6 +169,12 @@ msgstr "Приоритет цепочки"
 msgid "Chain/Set Settings"
 msgstr ""
 
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:332
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:393
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:459
+msgid "Changes on this tab needs a banIP service restart to take effect."
+msgstr ""
+
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:29
 msgid ""
 "Configuration of the banIP package to ban incoming and outgoing ip addresses/"
@@ -264,7 +270,7 @@ msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:237
 msgid "Enabled"
-msgstr "Включено"
+msgstr "Включен"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:246
 msgid "Enables IPv4 support."
@@ -374,6 +380,10 @@ msgstr ""
 #, fuzzy
 msgid "List of available network interfaces to trigger the banIP start."
 msgstr "Список доступных сетевых интерфейсов запускающих banIP."
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:524
+msgid "List of supported and fully pre-configured banIP feeds."
+msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:82
 msgid "List the elements of a specific banIP-related Set."
@@ -692,6 +702,12 @@ msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:191
 msgid "Timestamp"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:497
+msgid ""
+"To enable email notifications, set up the 'msmtp' package and specify a "
+"vaild E-Mail receiver address."
 msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:510

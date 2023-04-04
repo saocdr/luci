@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-27 07:24+0000\n"
+"PO-Revision-Date: 2023-03-31 16:57+0000\n"
 "Last-Translator: Wellington Terumi Uemura <wellingtonuemura@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "openwrt/luciapplicationsbanip/pt_BR/>\n"
@@ -176,6 +176,14 @@ msgstr "Prioridade da cadeia"
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:229
 msgid "Chain/Set Settings"
 msgstr "Cadeia/Definir as configurações"
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:332
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:393
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:459
+msgid "Changes on this tab needs a banIP service restart to take effect."
+msgstr ""
+"As alterações nesta guia precisam de uma reinicialização do serviço banIP "
+"para entrar em vigor."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:29
 msgid ""
@@ -400,6 +408,10 @@ msgstr ""
 msgid "List of available network interfaces to trigger the banIP start."
 msgstr ""
 "Lista de interfaces de rede disponíveis para acionar o início do banIP."
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:524
+msgid "List of supported and fully pre-configured banIP feeds."
+msgstr "Lista de feeds banIP totalmente compatíveis e pré-configurados."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:82
 msgid "List the elements of a specific banIP-related Set."
@@ -751,6 +763,14 @@ msgstr ""
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:191
 msgid "Timestamp"
 msgstr "Marca de Tempo"
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:497
+msgid ""
+"To enable email notifications, set up the 'msmtp' package and specify a "
+"vaild E-Mail receiver address."
+msgstr ""
+"Para ativar as notificações por e-mail, configure o pacote 'msmtp' e "
+"especifique um endereço de e-mail com um destinatário válido."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:510
 msgid "Topic for banIP notification E-Mails."
