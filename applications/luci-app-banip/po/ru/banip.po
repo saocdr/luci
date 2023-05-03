@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-24 17:51+0000\n"
-"Last-Translator: sergio <sergio+it@outerface.net>\n"
+"PO-Revision-Date: 2023-04-27 18:53+0000\n"
+"Last-Translator: st7105 <st7105@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsbanip/ru/>\n"
 "Language: ru\n"
@@ -170,6 +170,8 @@ msgid ""
 "By default each feed is active in all supported chains. Limit the default "
 "block policy to a certain chain."
 msgstr ""
+"По умолчанию каждый канал активен во всех поддерживаемых цепочках. "
+"Ограничьте политику блоков по умолчанию определенной цепочкой."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:360
 msgid "CPU Cores"
@@ -192,9 +194,9 @@ msgstr ""
 "Для вступления в силу изменений на этой вкладке требуется перезапуск службы "
 "banIP."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:262
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:288
 msgid "Clear Custom Feeds"
-msgstr ""
+msgstr "Очистить пользовательские каналы"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:30
 msgid ""
@@ -214,6 +216,10 @@ msgstr ""
 msgid "Countries"
 msgstr "Страны"
 
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:174
+msgid "Custom Feed Editor"
+msgstr "Пользовательский редактор каналов"
+
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:321
 msgid ""
 "Deduplicate IP addresses across all active sets and and tidy up the local "
@@ -228,9 +234,9 @@ msgstr "Дублирование IP-адресов"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:419
 msgid "Default Block Policy"
-msgstr ""
+msgstr "Политика блокировки по умолчанию"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:203
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:229
 msgid "Description"
 msgstr "Описание"
 
@@ -250,9 +256,9 @@ msgstr "Поиск домена"
 msgid "Don't check SSL server certificates during download."
 msgstr "Не проверять SSL сертификаты сервера во время загрузки."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:235
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:261
 msgid "Download Custom Feeds"
-msgstr ""
+msgstr "Скачать пользовательские каналы"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:394
 msgid "Download Insecure"
@@ -300,7 +306,7 @@ msgstr "Редактировать черный список"
 
 #: applications/luci-app-banip/root/usr/share/luci/menu.d/luci-app-banip.json:52
 msgid "Edit Custom Feeds"
-msgstr ""
+msgstr "Редактировать пользовательские каналы"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:163
 msgid "Element Count"
@@ -310,10 +316,10 @@ msgstr "Количество элементов"
 msgid "Elements"
 msgstr "Элементы"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:169
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:207
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:195
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:233
 msgid "Empty field not allowed"
-msgstr ""
+msgstr "Пустое поле не допускается"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:246
 msgid "Enable the banIP service."
@@ -341,29 +347,29 @@ msgstr ""
 "Время истечения срока действия для автоматически добавляемых членов набора "
 "списков блокировки."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:164
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:190
 msgid "Feed Name"
-msgstr ""
+msgstr "Название канала"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:546
 msgid "Feed Selection"
 msgstr "Выбор канала"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:253
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:279
 msgid "Fill Custom Feeds"
-msgstr ""
+msgstr "Заполнить пользовательские каналы"
 
 #: applications/luci-app-banip/root/usr/share/luci/menu.d/luci-app-banip.json:68
 msgid "Firewall Log"
 msgstr "Журнал Firewall"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:212
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:238
 msgid "Flag"
-msgstr ""
+msgstr "Флаг"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:219
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:245
 msgid "Flag not supported"
-msgstr ""
+msgstr "Флаг не поддерживается"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:236
 msgid "General Settings"
@@ -409,13 +415,13 @@ msgstr ""
 msgid "Information"
 msgstr "Информация"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:172
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:198
 msgid "Invalid characters"
-msgstr ""
+msgstr "Недопустимые символы"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:100
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:119
 msgid "Invalid input values, unable to save modifications."
-msgstr ""
+msgstr "Недопустимые входные значения, невозможно сохранить изменения."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:158
 msgid "LAN-Forward (packets)"
@@ -528,7 +534,7 @@ msgstr "Максимальное количество открытых файл�
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:410
 msgid "NFT Chain Priority"
-msgstr ""
+msgstr "Приоритет цепочки NFT"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:179
 msgid "NFT Information"
@@ -536,7 +542,7 @@ msgstr "Информация NFT"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:404
 msgid "NFT Set Policy"
-msgstr ""
+msgstr "Политика набора NFT"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:265
 msgid "Network Devices"
@@ -592,6 +598,9 @@ msgid ""
 "Parse only the last stated number of log entries for suspicious events. To "
 "disable the log monitor at all set it to '0'."
 msgstr ""
+"Разбор только последнего указанного количества записей журнала на предмет "
+"подозрительных событий. Чтобы вообще отключить монитор журнала, установите "
+"значение '0'."
 
 #: applications/luci-app-banip/root/usr/share/luci/menu.d/luci-app-banip.json:76
 msgid "Processing Log"
@@ -602,10 +611,10 @@ msgid "Profile used by 'msmtp' for banIP notification E-Mails."
 msgstr ""
 "Профиль, используемый 'msmtp' для электронной почты с уведомлением banIP."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:183
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:196
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:209
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:222
 msgid "Protocol/URL format not supported"
-msgstr ""
+msgstr "Формат протокола/URL не поддерживается"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:518
 msgid "Receive E-Mail notifications with every banIP run."
@@ -649,13 +658,13 @@ msgstr ""
 msgid "Result"
 msgstr "Результат"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:188
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:214
 msgid "Rulev4"
-msgstr ""
+msgstr "Rulev4"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:201
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:227
 msgid "Rulev6"
-msgstr ""
+msgstr "Rulev6"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:187
 msgid "Run Flags"
@@ -665,9 +674,9 @@ msgstr "Флаги запуска"
 msgid "Run Information"
 msgstr "Информация о запуске"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:271
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:297
 msgid "Save Custom Feeds"
-msgstr ""
+msgstr "Сохранить пользовательские каналы"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:62
 msgid "Search"
@@ -732,7 +741,7 @@ msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:404
 msgid "Set the nft policy for banIP-related Sets."
-msgstr ""
+msgstr "Установите политику nft для наборов, связанных с banIP."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:480
 msgid "Set the syslog level for NFT logging."
@@ -866,26 +875,28 @@ msgstr "Задержка запуска"
 msgid "Trigger action on ifup interface events."
 msgstr "Действие, выполняемое при поднятии интерфейса (ifup)."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:177
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:203
 msgid "URLv4"
-msgstr ""
+msgstr "URLv4"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:190
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:216
 msgid "URLv6"
-msgstr ""
+msgstr "URLv6"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/allowlist.js:22
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/blocklist.js:22
 msgid "Unable to save modifications: %s"
 msgstr "Невозможно сохранить изменения: %s"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:244
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:270
 msgid "Upload Custom Feeds"
-msgstr ""
+msgstr "Загрузить пользовательские каналы"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:66
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:72
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:78
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:85
 msgid "Upload of the custom feed file failed."
-msgstr ""
+msgstr "Загрузка файла пользовательского канала не удалась."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:249
 msgid "Verbose Debug Logging"
@@ -913,7 +924,7 @@ msgstr "WAN-Input (пакеты)"
 msgid "WAN-Input Chain"
 msgstr "Цепочка WAN-Input"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:148
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:174
 msgid ""
 "With this editor you can upload your local custom feed file or fill up an "
 "initial one (a 1:1 copy of the version shipped with the package). The file "
@@ -922,6 +933,12 @@ msgid ""
 "maintainers version just empty the custom feed file again (do not delete "
 "it!)."
 msgstr ""
+"С помощью этого редактора вы можете загрузить свой локальный файл "
+"пользовательских каналов или заполнить начальный файл (копия 1:1 версии, "
+"поставляемой с пакетом). Файл находится по адресу '/etc/banip/banip.custom."
+"feeds'. Затем вы можете редактировать этот файл, удалять записи, добавлять "
+"новые или делать локальную резервную копию. Чтобы вернуться исходной версии, "
+"загрузите пустой файл (не удаляйте его!)."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:482
 msgid "alert"
